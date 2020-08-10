@@ -17,7 +17,7 @@
                printf(" ");
 
    	     else
-                printf("%d ,x");   
+                printf("%d ",x);   
        
           x++;  
             
