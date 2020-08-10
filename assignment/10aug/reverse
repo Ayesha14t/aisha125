@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+
+void main(){
+ 
+
+  int num;
+ 
+ do{
+  
+  printf("Enter the Number \n");
+  scanf(" %d",&num);
+ 
+  int var=num;
+  int rem=0;
+  int rev=0;
+
+ 
+  while(num!=0){
+
+	rem=num%10;
+        rev=rev+rem;
+        num=num/10;
+ 
+   }
+ 
+printf("Rev Of %d if %d \n",var ,rev);
+
+  printf("Do you want to continue (y/n)\n");
+  scanf(" %c",&choice);
+
+   }while(choice=='y')
+}
